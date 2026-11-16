@@ -1,0 +1,948 @@
+{
+  "gerado_em": "2026-11-15T20:17:21",
+  "sumarizacao": {
+    "descricao": "Notas 0-10 = percentil do modelo dentro do catálogo.",
+    "n_modelos": 48,
+    "imputacoes": [
+      {
+        "modelo": "Apple iPhone 12",
+        "campos_imputados": "bateria_mah (mediana da marca);"
+      }
+    ],
+    "specs_catalogo": {
+      "camera_mp": {
+        "count": 48.0,
+        "mean": 60.1,
+        "std": 47.16,
+        "min": 8.0,
+        "25%": 48.0,
+        "50%": 50.0,
+        "75%": 53.5,
+        "max": 200.0
+      },
+      "spec_score": {
+        "count": 48.0,
+        "mean": 81.31,
+        "std": 7.21,
+        "min": 64.0,
+        "25%": 75.0,
+        "50%": 84.0,
+        "75%": 87.0,
+        "max": 95.0
+      },
+      "clock_ghz": {
+        "count": 48.0,
+        "mean": 2.6,
+        "std": 0.55,
+        "min": 1.6,
+        "25%": 2.2,
+        "50%": 2.4,
+        "75%": 3.12,
+        "max": 3.78
+      },
+      "bateria_mah": {
+        "count": 48.0,
+        "mean": 4665.94,
+        "std": 649.83,
+        "min": 3110.0,
+        "25%": 4485.25,
+        "50%": 5000.0,
+        "75%": 5000.0,
+        "max": 6000.0
+      },
+      "ram_gb": {
+        "count": 48.0,
+        "mean": 7.06,
+        "std": 2.4,
+        "min": 3.0,
+        "25%": 5.5,
+        "50%": 8.0,
+        "75%": 8.0,
+        "max": 12.0
+      },
+      "armazenamento_gb": {
+        "count": 48.0,
+        "mean": 161.33,
+        "std": 87.56,
+        "min": 64.0,
+        "25%": 128.0,
+        "50%": 128.0,
+        "75%": 256.0,
+        "max": 512.0
+      }
+    },
+    "por_marca": [
+      {
+        "marca": "Apple",
+        "n": 8,
+        "nota_camera_mean": 1.62,
+        "nota_camera_median": 1.62,
+        "nota_camera_min": 0.83,
+        "nota_camera_max": 2.4,
+        "nota_processamento_mean": 6.7,
+        "nota_processamento_median": 6.48,
+        "nota_processamento_min": 3.96,
+        "nota_processamento_max": 9.64,
+        "nota_bateria_mean": 1.15,
+        "nota_bateria_median": 0.94,
+        "nota_bateria_min": 0.21,
+        "nota_bateria_max": 2.5,
+        "nota_armazenamento_mean": 4.12,
+        "nota_armazenamento_median": 4.48,
+        "nota_armazenamento_min": 1.04,
+        "nota_armazenamento_max": 8.44,
+        "camera_mp_mean": 30.0,
+        "camera_mp_median": 30.0,
+        "camera_mp_min": 12.0,
+        "camera_mp_max": 48.0,
+        "bateria_mah_mean": 3544.38,
+        "bateria_mah_median": 3279.0,
+        "bateria_mah_min": 3110.0,
+        "bateria_mah_max": 4441.0,
+        "armazenamento_gb_mean": 128.0,
+        "armazenamento_gb_median": 128.0,
+        "armazenamento_gb_min": 64.0,
+        "armazenamento_gb_max": 256.0,
+        "preco_inr_ref_mean": 75898.12,
+        "preco_inr_ref_median": 62499.0,
+        "preco_inr_ref_min": 36999.0,
+        "preco_inr_ref_max": 148900.0
+      },
+      {
+        "marca": "Motorola",
+        "n": 10,
+        "nota_camera_mean": 4.85,
+        "nota_camera_median": 5.31,
+        "nota_camera_min": 1.46,
+        "nota_camera_max": 8.23,
+        "nota_processamento_mean": 3.91,
+        "nota_processamento_median": 4.42,
+        "nota_processamento_min": 0.32,
+        "nota_processamento_max": 7.45,
+        "nota_bateria_mean": 5.93,
+        "nota_bateria_median": 6.35,
+        "nota_bateria_min": 2.08,
+        "nota_bateria_max": 10.0,
+        "nota_armazenamento_mean": 5.32,
+        "nota_armazenamento_median": 4.48,
+        "nota_armazenamento_min": 1.04,
+        "nota_armazenamento_max": 8.44,
+        "camera_mp_mean": 44.3,
+        "camera_mp_median": 50.0,
+        "camera_mp_min": 13.0,
+        "camera_mp_max": 64.0,
+        "bateria_mah_mean": 4970.0,
+        "bateria_mah_median": 5000.0,
+        "bateria_mah_min": 4200.0,
+        "bateria_mah_max": 6000.0,
+        "armazenamento_gb_mean": 160.0,
+        "armazenamento_gb_median": 128.0,
+        "armazenamento_gb_min": 64.0,
+        "armazenamento_gb_max": 256.0,
+        "preco_inr_ref_mean": 19692.0,
+        "preco_inr_ref_median": 16999.0,
+        "preco_inr_ref_min": 6999.0,
+        "preco_inr_ref_max": 44998.0
+      },
+      {
+        "marca": "Realme",
+        "n": 6,
+        "nota_camera_mean": 7.64,
+        "nota_camera_median": 8.23,
+        "nota_camera_min": 5.31,
+        "nota_camera_max": 9.69,
+        "nota_processamento_mean": 3.22,
+        "nota_processamento_median": 2.13,
+        "nota_processamento_min": 0.62,
+        "nota_processamento_max": 7.3,
+        "nota_bateria_mean": 6.35,
+        "nota_bateria_median": 6.35,
+        "nota_bateria_min": 6.35,
+        "nota_bateria_max": 6.35,
+        "nota_armazenamento_mean": 4.08,
+        "nota_armazenamento_median": 2.76,
+        "nota_armazenamento_min": 1.04,
+        "nota_armazenamento_max": 8.44,
+        "camera_mp_mean": 89.33,
+        "camera_mp_median": 64.0,
+        "camera_mp_min": 50.0,
+        "camera_mp_max": 200.0,
+        "bateria_mah_mean": 5000.0,
+        "bateria_mah_median": 5000.0,
+        "bateria_mah_min": 5000.0,
+        "bateria_mah_max": 5000.0,
+        "armazenamento_gb_mean": 138.67,
+        "armazenamento_gb_median": 96.0,
+        "armazenamento_gb_min": 64.0,
+        "armazenamento_gb_max": 256.0,
+        "preco_inr_ref_mean": 16083.33,
+        "preco_inr_ref_median": 10618.5,
+        "preco_inr_ref_min": 8045.0,
+        "preco_inr_ref_max": 29499.0
+      },
+      {
+        "marca": "Samsung",
+        "n": 14,
+        "nota_camera_mean": 5.1,
+        "nota_camera_median": 5.31,
+        "nota_camera_min": 0.83,
+        "nota_camera_max": 9.69,
+        "nota_processamento_mean": 5.95,
+        "nota_processamento_median": 6.36,
+        "nota_processamento_min": 1.2,
+        "nota_processamento_max": 9.32,
+        "nota_bateria_mean": 5.09,
+        "nota_bateria_median": 6.35,
+        "nota_bateria_min": 1.46,
+        "nota_bateria_max": 6.35,
+        "nota_armazenamento_mean": 5.12,
+        "nota_armazenamento_median": 4.48,
+        "nota_armazenamento_min": 1.04,
+        "nota_armazenamento_max": 8.44,
+        "camera_mp_mean": 57.86,
+        "camera_mp_median": 50.0,
+        "camera_mp_min": 12.0,
+        "camera_mp_max": 200.0,
+        "bateria_mah_mean": 4721.43,
+        "bateria_mah_median": 5000.0,
+        "bateria_mah_min": 3700.0,
+        "bateria_mah_max": 5000.0,
+        "armazenamento_gb_mean": 155.43,
+        "armazenamento_gb_median": 128.0,
+        "armazenamento_gb_min": 64.0,
+        "armazenamento_gb_max": 256.0,
+        "preco_inr_ref_mean": 41031.21,
+        "preco_inr_ref_median": 31249.0,
+        "preco_inr_ref_min": 7999.0,
+        "preco_inr_ref_max": 129999.0
+      },
+      {
+        "marca": "Xiaomi",
+        "n": 10,
+        "nota_camera_mean": 6.64,
+        "nota_camera_median": 8.23,
+        "nota_camera_min": 0.21,
+        "nota_camera_max": 9.69,
+        "nota_processamento_mean": 4.98,
+        "nota_processamento_median": 4.56,
+        "nota_processamento_min": 1.4,
+        "nota_processamento_max": 9.22,
+        "nota_bateria_mean": 6.7,
+        "nota_bateria_median": 6.35,
+        "nota_bateria_min": 3.12,
+        "nota_bateria_max": 9.69,
+        "nota_armazenamento_mean": 6.27,
+        "nota_armazenamento_median": 6.46,
+        "nota_armazenamento_min": 1.04,
+        "nota_armazenamento_max": 10.0,
+        "camera_mp_mean": 85.6,
+        "camera_mp_median": 64.0,
+        "camera_mp_min": 8.0,
+        "camera_mp_max": 200.0,
+        "bateria_mah_mean": 4981.0,
+        "bateria_mah_median": 5000.0,
+        "bateria_mah_min": 4610.0,
+        "bateria_mah_max": 5100.0,
+        "armazenamento_gb_mean": 211.2,
+        "armazenamento_gb_median": 192.0,
+        "armazenamento_gb_min": 64.0,
+        "armazenamento_gb_max": 512.0,
+        "preco_inr_ref_mean": 23625.7,
+        "preco_inr_ref_median": 20552.0,
+        "preco_inr_ref_min": 6800.0,
+        "preco_inr_ref_max": 69999.0
+      }
+    ]
+  },
+  "agrupamento": {
+    "descricao": "k-means sobre as 4 notas de specs; k escolhido pela maior silhueta.",
+    "silhueta_por_k": {
+      "3": 0.3627,
+      "4": 0.3196,
+      "5": 0.3245,
+      "6": 0.3463
+    },
+    "k_escolhido": 3,
+    "segmentos": [
+      {
+        "cluster": 0,
+        "nome": "Forte em processamento, fraco em bateria",
+        "n": 11,
+        "centro": {
+          "câmera": 2.22,
+          "processamento": 6.91,
+          "bateria": 1.37,
+          "armazenamento": 4.57
+        },
+        "modelos": [
+          "Apple iPhone 11",
+          "Apple iPhone 12",
+          "Apple iPhone 13",
+          "Apple iPhone 14",
+          "Apple iPhone 15",
+          "Apple iPhone 15 Plus",
+          "Apple iPhone 15 Pro",
+          "Apple iPhone 15 Pro Max",
+          "Samsung Galaxy S23 5G",
+          "Samsung Galaxy S23 FE 5G",
+          "Samsung Galaxy Z Flip 5"
+        ]
+      },
+      {
+        "cluster": 1,
+        "nome": "Forte em bateria, fraco em processamento",
+        "n": 24,
+        "centro": {
+          "câmera": 5.16,
+          "processamento": 3.35,
+          "bateria": 6.64,
+          "armazenamento": 3.48
+        },
+        "modelos": [
+          "Motorola Edge 40 Neo",
+          "Motorola Edge 50 Fusion",
+          "Motorola Moto E13",
+          "Motorola Moto G04",
+          "Motorola Moto G14",
+          "Motorola Moto G34 5G",
+          "Motorola Moto G54 5G",
+          "Realme C51",
+          "Realme C53",
+          "Realme C55",
+          "Realme C67 5G",
+          "Samsung Galaxy A05",
+          "Samsung Galaxy A05s",
+          "Samsung Galaxy A14 5G",
+          "Samsung Galaxy A25 5G",
+          "Samsung Galaxy A34 5G",
+          "Samsung Galaxy A35 5G",
+          "Samsung Galaxy A54 5G",
+          "Samsung Galaxy A55 5G",
+          "Redmi 13C",
+          "Redmi A3",
+          "Redmi Note 12",
+          "Redmi Note 13 5G",
+          "Redmi Note 13 Pro 5G"
+        ]
+      },
+      {
+        "cluster": 2,
+        "nome": "Forte em armazenamento, fraco em bateria",
+        "n": 13,
+        "centro": {
+          "câmera": 7.44,
+          "processamento": 6.81,
+          "bateria": 5.41,
+          "armazenamento": 8.56
+        },
+        "modelos": [
+          "Motorola Edge 50 Pro",
+          "Motorola Moto G84 5G",
+          "Motorola Razr 40",
+          "Poco F5",
+          "Poco X6 5G",
+          "Poco X6 Pro 5G",
+          "Realme 11 Pro Plus",
+          "Realme 12 Pro Plus 5G",
+          "Samsung Galaxy A15 5G",
+          "Samsung Galaxy S24 5G",
+          "Samsung Galaxy S24 Ultra",
+          "Xiaomi 14",
+          "Redmi Note 13 Pro Plus 5G"
+        ]
+      }
+    ],
+    "por_cluster": [
+      {
+        "segmento": "Forte em armazenamento, fraco em bateria",
+        "n": 13,
+        "nota_camera_mean": 7.44,
+        "nota_camera_median": 8.23,
+        "nota_camera_min": 5.31,
+        "nota_camera_max": 9.69,
+        "nota_processamento_mean": 6.81,
+        "nota_processamento_median": 7.19,
+        "nota_processamento_min": 3.49,
+        "nota_processamento_max": 9.32,
+        "nota_bateria_mean": 5.41,
+        "nota_bateria_median": 6.35,
+        "nota_bateria_min": 1.88,
+        "nota_bateria_max": 9.69,
+        "nota_armazenamento_mean": 8.56,
+        "nota_armazenamento_median": 8.44,
+        "nota_armazenamento_min": 8.44,
+        "nota_armazenamento_max": 10.0,
+        "camera_mp_mean": 90.0,
+        "camera_mp_median": 64.0,
+        "camera_mp_min": 50.0,
+        "camera_mp_max": 200.0,
+        "bateria_mah_mean": 4800.77,
+        "bateria_mah_median": 5000.0,
+        "bateria_mah_min": 4000.0,
+        "bateria_mah_max": 5100.0,
+        "armazenamento_gb_mean": 275.69,
+        "armazenamento_gb_median": 256.0,
+        "armazenamento_gb_min": 256.0,
+        "armazenamento_gb_max": 512.0,
+        "preco_inr_ref_mean": 43050.23,
+        "preco_inr_ref_median": 29499.0,
+        "preco_inr_ref_min": 18999.0,
+        "preco_inr_ref_max": 129999.0
+      },
+      {
+        "segmento": "Forte em bateria, fraco em processamento",
+        "n": 24,
+        "nota_camera_mean": 5.16,
+        "nota_camera_median": 5.31,
+        "nota_camera_min": 0.21,
+        "nota_camera_max": 9.69,
+        "nota_processamento_mean": 3.35,
+        "nota_processamento_median": 2.94,
+        "nota_processamento_min": 0.32,
+        "nota_processamento_max": 7.66,
+        "nota_bateria_mean": 6.64,
+        "nota_bateria_median": 6.35,
+        "nota_bateria_min": 6.35,
+        "nota_bateria_max": 10.0,
+        "nota_armazenamento_mean": 3.48,
+        "nota_armazenamento_median": 4.48,
+        "nota_armazenamento_min": 1.04,
+        "nota_armazenamento_max": 4.48,
+        "camera_mp_mean": 56.79,
+        "camera_mp_median": 50.0,
+        "camera_mp_min": 8.0,
+        "camera_mp_max": 200.0,
+        "bateria_mah_mean": 5045.83,
+        "bateria_mah_median": 5000.0,
+        "bateria_mah_min": 5000.0,
+        "bateria_mah_max": 6000.0,
+        "armazenamento_gb_mean": 109.33,
+        "armazenamento_gb_median": 128.0,
+        "armazenamento_gb_min": 64.0,
+        "armazenamento_gb_max": 128.0,
+        "preco_inr_ref_mean": 15821.79,
+        "preco_inr_ref_median": 12368.5,
+        "preco_inr_ref_min": 6800.0,
+        "preco_inr_ref_max": 39999.0
+      },
+      {
+        "segmento": "Forte em processamento, fraco em bateria",
+        "n": 11,
+        "nota_camera_mean": 2.22,
+        "nota_camera_median": 2.4,
+        "nota_camera_min": 0.83,
+        "nota_camera_max": 5.31,
+        "nota_processamento_mean": 6.91,
+        "nota_processamento_median": 7.03,
+        "nota_processamento_min": 3.96,
+        "nota_processamento_max": 9.64,
+        "nota_bateria_mean": 1.37,
+        "nota_bateria_median": 1.25,
+        "nota_bateria_min": 0.21,
+        "nota_bateria_max": 2.81,
+        "nota_armazenamento_mean": 4.57,
+        "nota_armazenamento_median": 4.48,
+        "nota_armazenamento_min": 1.04,
+        "nota_armazenamento_max": 8.44,
+        "camera_mp_mean": 32.0,
+        "camera_mp_median": 48.0,
+        "camera_mp_min": 12.0,
+        "camera_mp_max": 50.0,
+        "bateria_mah_mean": 3677.73,
+        "bateria_mah_median": 3349.0,
+        "bateria_mah_min": 3110.0,
+        "bateria_mah_max": 4500.0,
+        "armazenamento_gb_mean": 139.64,
+        "armazenamento_gb_median": 128.0,
+        "armazenamento_gb_min": 64.0,
+        "armazenamento_gb_max": 256.0,
+        "preco_inr_ref_mean": 70174.82,
+        "preco_inr_ref_median": 57999.0,
+        "preco_inr_ref_min": 36999.0,
+        "preco_inr_ref_max": 148900.0
+      }
+    ]
+  },
+  "regressao": {
+    "descricao": "Alvo: razão preço_usado/preço_novo = exp(log_usado - log_novo) (a base vem em escala logarítmica). Curva ajustada: razão(t) = a·(1-d)^t.",
+    "n_amostras": 3262,
+    "features": [
+      "anos_uso",
+      "preco_novo_log",
+      "rear_camera_mp",
+      "ram",
+      "memoria_log",
+      "battery",
+      "tem_5g",
+      "marca_Apple",
+      "marca_Samsung",
+      "marca_Motorola",
+      "marca_Xiaomi",
+      "marca_Realme"
+    ],
+    "comparacao_cv5": {
+      "linear": {
+        "R2": 0.4931,
+        "R2_dp": 0.0133,
+        "MAE": 0.0874,
+        "RMSE": 0.1127
+      },
+      "random_forest": {
+        "R2": 0.603,
+        "R2_dp": 0.0193,
+        "MAE": 0.0789,
+        "RMSE": 0.0997
+      }
+    },
+    "modelo_escolhido": "random_forest",
+    "importancia_ou_coeficientes": {
+      "preco_novo_log": 0.5235,
+      "battery": 0.2018,
+      "anos_uso": 0.1029,
+      "memoria_log": 0.0819,
+      "rear_camera_mp": 0.071,
+      "ram": 0.0151,
+      "marca_Samsung": 0.0015,
+      "marca_Xiaomi": 0.0015,
+      "marca_Motorola": 0.0004,
+      "tem_5g": 0.0003,
+      "marca_Apple": 0.0002,
+      "marca_Realme": 0.0
+    },
+    "curva_global": {
+      "a": 0.4667,
+      "d": 0.0373
+    },
+    "razao_mediana_observada_por_anos_uso": {
+      "0-1": 0.5097,
+      "1-2": 0.4351,
+      "2-3": 0.4073
+    },
+    "d_por_modelo": {
+      "count": 48.0,
+      "mean": 0.048,
+      "std": 0.035,
+      "min": -0.0352,
+      "25%": 0.022,
+      "50%": 0.0436,
+      "75%": 0.0694,
+      "max": 0.1233
+    },
+    "a_por_modelo": {
+      "count": 48.0,
+      "mean": 0.6401,
+      "std": 0.1589,
+      "min": 0.2191,
+      "25%": 0.5338,
+      "50%": 0.6881,
+      "75%": 0.7376,
+      "max": 0.8737
+    },
+    "modelos_com_d_negativo": [
+      "Apple iPhone 15 Pro Max",
+      "Samsung Galaxy S24 Ultra"
+    ],
+    "por_segmento_usado_na_decisao": [
+      {
+        "segmento": "Forte em armazenamento, fraco em bateria",
+        "fator_revenda_inicial": 0.6697,
+        "taxa_depreciacao": 0.0636
+      },
+      {
+        "segmento": "Forte em bateria, fraco em processamento",
+        "fator_revenda_inicial": 0.7385,
+        "taxa_depreciacao": 0.0305
+      },
+      {
+        "segmento": "Forte em processamento, fraco em bateria",
+        "fator_revenda_inicial": 0.4589,
+        "taxa_depreciacao": 0.0643
+      }
+    ],
+    "limitacoes": [
+      "Base com aparelhos de 2013-2020 e no máximo 3 anos de uso: horizontes de 4-5 anos são extrapolados pela curva.",
+      "Preço novo do catálogo entra pela posição relativa (percentil), não pelo valor, por diferença de moeda e época."
+    ]
+  },
+  "classificacao": {
+    "descricao": "TF-IDF + regressão logística (class_weight=balanced). Satisfação da marca = % de reviews previstas como positivas × 10.",
+    "n_reviews_unicas": 162487,
+    "n_rotuladas": 148121,
+    "prop_positivas_rotuladas": 0.7006,
+    "n_treino": 118496,
+    "n_teste": 29625,
+    "acuracia": 0.9412,
+    "acuracia_balanceada": 0.9402,
+    "f1_macro": 0.9313,
+    "f1_positiva": 0.9574,
+    "f1_negativa": 0.9052,
+    "baseline_classe_majoritaria": 0.7006,
+    "matriz_confusao": {
+      "labels": [
+        "negativa",
+        "positiva"
+      ],
+      "linhas_real_colunas_previsto": [
+        [
+          8316,
+          554
+        ],
+        [
+          1187,
+          19568
+        ]
+      ]
+    },
+    "termos_mais_negativos": [
+      "not",
+      "worst",
+      "not happy",
+      "terrible",
+      "disappointed",
+      "return",
+      "useless",
+      "horrible",
+      "poor",
+      "not worth",
+      "not recommend",
+      "doesn",
+      "returning",
+      "very disappointed",
+      "defective"
+    ],
+    "termos_mais_positivos": [
+      "great",
+      "excellent",
+      "love",
+      "perfect",
+      "awesome",
+      "amazing",
+      "no problems",
+      "love this",
+      "loves",
+      "best",
+      "perfectly",
+      "no issues",
+      "excelente",
+      "good",
+      "not bad"
+    ],
+    "min_reviews_por_marca": 200,
+    "por_marca": [
+      {
+        "marca_norm": "",
+        "n_reviews": 25663,
+        "prop_positiva_prevista": 0.6734,
+        "prop_positiva_observada": 0.7148,
+        "n_rotuladas": 23641.0,
+        "satisfacao": 6.73
+      },
+      {
+        "marca_norm": "alcatel",
+        "n_reviews": 1160,
+        "prop_positiva_prevista": 0.75,
+        "prop_positiva_observada": 0.8002,
+        "n_rotuladas": 1056.0,
+        "satisfacao": 7.5
+      },
+      {
+        "marca_norm": "apple",
+        "n_reviews": 13553,
+        "prop_positiva_prevista": 0.6536,
+        "prop_positiva_observada": 0.6924,
+        "n_rotuladas": 12639.0,
+        "satisfacao": 6.54
+      },
+      {
+        "marca_norm": "asus",
+        "n_reviews": 1227,
+        "prop_positiva_prevista": 0.7107,
+        "prop_positiva_observada": 0.7531,
+        "n_rotuladas": 1126.0,
+        "satisfacao": 7.11
+      },
+      {
+        "marca_norm": "asus computers",
+        "n_reviews": 538,
+        "prop_positiva_prevista": 0.7528,
+        "prop_positiva_observada": 0.7952,
+        "n_rotuladas": 498.0,
+        "satisfacao": 7.53
+      },
+      {
+        "marca_norm": "blackberry",
+        "n_reviews": 8410,
+        "prop_positiva_prevista": 0.5888,
+        "prop_positiva_observada": 0.6206,
+        "n_rotuladas": 7651.0,
+        "satisfacao": 5.89
+      },
+      {
+        "marca_norm": "blu",
+        "n_reviews": 16799,
+        "prop_positiva_prevista": 0.6622,
+        "prop_positiva_observada": 0.6976,
+        "n_rotuladas": 15040.0,
+        "satisfacao": 6.62
+      },
+      {
+        "marca_norm": "casio",
+        "n_reviews": 568,
+        "prop_positiva_prevista": 0.5405,
+        "prop_positiva_observada": 0.5824,
+        "n_rotuladas": 510.0,
+        "satisfacao": 5.4
+      },
+      {
+        "marca_norm": "cnpgd",
+        "n_reviews": 953,
+        "prop_positiva_prevista": 0.4764,
+        "prop_positiva_observada": 0.4932,
+        "n_rotuladas": 803.0,
+        "satisfacao": 4.76
+      },
+      {
+        "marca_norm": "ct-miami llc",
+        "n_reviews": 401,
+        "prop_positiva_prevista": 0.6658,
+        "prop_positiva_observada": 0.7139,
+        "n_rotuladas": 360.0,
+        "satisfacao": 6.66
+      },
+      {
+        "marca_norm": "figo",
+        "n_reviews": 231,
+        "prop_positiva_prevista": 0.5022,
+        "prop_positiva_observada": 0.5388,
+        "n_rotuladas": 206.0,
+        "satisfacao": 5.02
+      },
+      {
+        "marca_norm": "greatcall",
+        "n_reviews": 242,
+        "prop_positiva_prevista": 0.7975,
+        "prop_positiva_observada": 0.8222,
+        "n_rotuladas": 225.0,
+        "satisfacao": 7.98
+      },
+      {
+        "marca_norm": "htc",
+        "n_reviews": 8024,
+        "prop_positiva_prevista": 0.5669,
+        "prop_positiva_observada": 0.5973,
+        "n_rotuladas": 7236.0,
+        "satisfacao": 5.67
+      },
+      {
+        "marca_norm": "huawei",
+        "n_reviews": 1817,
+        "prop_positiva_prevista": 0.7804,
+        "prop_positiva_observada": 0.819,
+        "n_rotuladas": 1713.0,
+        "satisfacao": 7.8
+      },
+      {
+        "marca_norm": "indigi",
+        "n_reviews": 312,
+        "prop_positiva_prevista": 0.3045,
+        "prop_positiva_observada": 0.3043,
+        "n_rotuladas": 276.0,
+        "satisfacao": 3.04
+      },
+      {
+        "marca_norm": "juning",
+        "n_reviews": 236,
+        "prop_positiva_prevista": 0.4407,
+        "prop_positiva_observada": 0.4505,
+        "n_rotuladas": 222.0,
+        "satisfacao": 4.41
+      },
+      {
+        "marca_norm": "kyocera",
+        "n_reviews": 204,
+        "prop_positiva_prevista": 0.7941,
+        "prop_positiva_observada": 0.8495,
+        "n_rotuladas": 186.0,
+        "satisfacao": 7.94
+      },
+      {
+        "marca_norm": "lenovo",
+        "n_reviews": 229,
+        "prop_positiva_prevista": 0.4716,
+        "prop_positiva_observada": 0.5051,
+        "n_rotuladas": 196.0,
+        "satisfacao": 4.72
+      },
+      {
+        "marca_norm": "lg",
+        "n_reviews": 13660,
+        "prop_positiva_prevista": 0.6556,
+        "prop_positiva_observada": 0.6978,
+        "n_rotuladas": 12416.0,
+        "satisfacao": 6.56
+      },
+      {
+        "marca_norm": "lg electronics mobilecomm usa",
+        "n_reviews": 274,
+        "prop_positiva_prevista": 0.6496,
+        "prop_positiva_observada": 0.7009,
+        "n_rotuladas": 234.0,
+        "satisfacao": 6.5
+      },
+      {
+        "marca_norm": "microsoft",
+        "n_reviews": 328,
+        "prop_positiva_prevista": 0.8079,
+        "prop_positiva_observada": 0.8459,
+        "n_rotuladas": 305.0,
+        "satisfacao": 8.08
+      },
+      {
+        "marca_norm": "motorola",
+        "n_reviews": 6990,
+        "prop_positiva_prevista": 0.6163,
+        "prop_positiva_observada": 0.6597,
+        "n_rotuladas": 6273.0,
+        "satisfacao": 6.16
+      },
+      {
+        "marca_norm": "nokia",
+        "n_reviews": 8507,
+        "prop_positiva_prevista": 0.6804,
+        "prop_positiva_observada": 0.7279,
+        "n_rotuladas": 7643.0,
+        "satisfacao": 6.8
+      },
+      {
+        "marca_norm": "oneplus",
+        "n_reviews": 340,
+        "prop_positiva_prevista": 0.7559,
+        "prop_positiva_observada": 0.8056,
+        "n_rotuladas": 319.0,
+        "satisfacao": 7.56
+      },
+      {
+        "marca_norm": "otterbox",
+        "n_reviews": 5151,
+        "prop_positiva_prevista": 0.8396,
+        "prop_positiva_observada": 0.8734,
+        "n_rotuladas": 4825.0,
+        "satisfacao": 8.4
+      },
+      {
+        "marca_norm": "pantech",
+        "n_reviews": 719,
+        "prop_positiva_prevista": 0.6954,
+        "prop_positiva_observada": 0.75,
+        "n_rotuladas": 640.0,
+        "satisfacao": 6.95
+      },
+      {
+        "marca_norm": "plum",
+        "n_reviews": 214,
+        "prop_positiva_prevista": 0.3972,
+        "prop_positiva_observada": 0.419,
+        "n_rotuladas": 179.0,
+        "satisfacao": 3.97
+      },
+      {
+        "marca_norm": "polaroid",
+        "n_reviews": 206,
+        "prop_positiva_prevista": 0.4709,
+        "prop_positiva_observada": 0.474,
+        "n_rotuladas": 173.0,
+        "satisfacao": 4.71
+      },
+      {
+        "marca_norm": "posh mobile",
+        "n_reviews": 1357,
+        "prop_positiva_prevista": 0.6352,
+        "prop_positiva_observada": 0.6736,
+        "n_rotuladas": 1198.0,
+        "satisfacao": 6.35
+      },
+      {
+        "marca_norm": "rca",
+        "n_reviews": 459,
+        "prop_positiva_prevista": 0.6536,
+        "prop_positiva_observada": 0.696,
+        "n_rotuladas": 421.0,
+        "satisfacao": 6.54
+      },
+      {
+        "marca_norm": "samsung",
+        "n_reviews": 30613,
+        "prop_positiva_prevista": 0.6841,
+        "prop_positiva_observada": 0.7311,
+        "n_rotuladas": 28118.0,
+        "satisfacao": 6.84
+      },
+      {
+        "marca_norm": "sky devices",
+        "n_reviews": 201,
+        "prop_positiva_prevista": 0.6965,
+        "prop_positiva_observada": 0.7033,
+        "n_rotuladas": 182.0,
+        "satisfacao": 6.97
+      },
+      {
+        "marca_norm": "sony",
+        "n_reviews": 3521,
+        "prop_positiva_prevista": 0.6805,
+        "prop_positiva_observada": 0.7297,
+        "n_rotuladas": 3145.0,
+        "satisfacao": 6.8
+      },
+      {
+        "marca_norm": "sony ericsson",
+        "n_reviews": 308,
+        "prop_positiva_prevista": 0.6429,
+        "prop_positiva_observada": 0.6835,
+        "n_rotuladas": 278.0,
+        "satisfacao": 6.43
+      },
+      {
+        "marca_norm": "star",
+        "n_reviews": 755,
+        "prop_positiva_prevista": 0.5298,
+        "prop_positiva_observada": 0.5712,
+        "n_rotuladas": 660.0,
+        "satisfacao": 5.3
+      },
+      {
+        "marca_norm": "ultrabox",
+        "n_reviews": 379,
+        "prop_positiva_prevista": 0.5515,
+        "prop_positiva_observada": 0.5874,
+        "n_rotuladas": 349.0,
+        "satisfacao": 5.51
+      },
+      {
+        "marca_norm": "verykool",
+        "n_reviews": 528,
+        "prop_positiva_prevista": 0.6345,
+        "prop_positiva_observada": 0.6787,
+        "n_rotuladas": 470.0,
+        "satisfacao": 6.34
+      },
+      {
+        "marca_norm": "zte",
+        "n_reviews": 711,
+        "prop_positiva_prevista": 0.7314,
+        "prop_positiva_observada": 0.7584,
+        "n_rotuladas": 654.0,
+        "satisfacao": 7.31
+      }
+    ]
+  },
+  "satisfacao_catalogo": {
+    "modelos_por_fonte": {
+      "classificador (reviews Amazon, por marca)": 32,
+      "PENDENTE": 16
+    },
+    "marcas_sem_dado": [
+      "Realme",
+      "Xiaomi"
+    ]
+  }
+}

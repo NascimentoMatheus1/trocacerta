@@ -1,0 +1,23 @@
+{
+  "modo_demo": true,
+  "taxa_depreciacao_fallback": 0.30,
+  "limite_suporte_meses": 6,
+  "fatores_condicao": {"otima": 1.0, "boa": 0.9, "regular": 0.75, "ruim": 0.5},
+  "reducao_atende_parcialmente": 0.15,
+  "faixa_preco": 0.30,
+  "max_alternativas": 6,
+  "frota": {
+    "suporte_minimo_meses": 36,
+    "max_modelos_diferentes": 2,
+    "pesos_perfis": {
+      "Campo/vendas": {"camera": 10, "processamento": 10, "bateria": 30, "seguranca": 20, "armazenamento": 5, "satisfacao": 5, "custo": 20},
+      "Operacional":  {"camera": 5, "processamento": 10, "bateria": 20, "seguranca": 20, "armazenamento": 5, "satisfacao": 5, "custo": 35},
+      "Executivo":    {"camera": 15, "processamento": 25, "bateria": 10, "seguranca": 20, "armazenamento": 10, "satisfacao": 10, "custo": 10}
+    }
+  },
+  "demo": {
+    "aviso": "Valores SIMULADOS apenas para demonstração: substitua preenchendo data/precos_manuais.csv, data/suporte_manual.csv e data/avaliacoes_manuais.csv.",
+    "cambio_inr_brl": 0.065,
+    "meses_suporte_simulado": 36
+  }
+}
